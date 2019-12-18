@@ -1,4 +1,4 @@
-# Generic Exodus - test your apps whatever, whenever
+# AppChecker - Track the trackers
 
 > Jost Alemann, Niklas Baier, Marcus Streuber, Tien Dô Nam, Luca Peters
 
