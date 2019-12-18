@@ -11,7 +11,10 @@
 
 ### Quickstart
 
+**ONLY AVAILABLE IN RELEASE**
+
 Run this script if you want to use the included dependencies.
+It does not work immediately if you clone this repo because the dependencies are not part of it.
 
 `python quickstart.py -a <path to apk>`
 
