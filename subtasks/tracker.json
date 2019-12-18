@@ -1,0 +1,1972 @@
+{
+  "trackers": [
+    {
+      "website": "https://www.360dialog.com",
+      "code_signature": "com.threesixtydialog.sdk.",
+      "network_signature": "",
+      "name": "360Dialog"
+    },
+    {
+      "website": "https://www.abtasty.com",
+      "code_signature": "com.abtasty",
+      "network_signature": "abtasty\\.com",
+      "name": "ABTasty"
+    },
+    {
+      "website": "https://adlibr.com",
+      "code_signature": "com.mocoplex.adlib.",
+      "network_signature": "adlibr\\.com",
+      "name": "ADLIB"
+    },
+    {
+      "website": "https://www.atinternet.com/en/",
+      "code_signature": "com.atinternet.",
+      "network_signature": "ati-host\\.net",
+      "name": "ATInternet"
+    },
+    {
+      "website": "https://www.aarki.com",
+      "code_signature": "com.aarki",
+      "network_signature": "",
+      "name": "Aarki"
+    },
+    {
+      "website": "https://www.accountkit.com/",
+      "code_signature": "com.facebook.accountkit",
+      "network_signature": "graph.accountkit.com",
+      "name": "AccountKit"
+    },
+    {
+      "website": "http://actv8me.com/",
+      "code_signature": "me.actv8",
+      "network_signature": "actv8technologies.com",
+      "name": "Actv8"
+    },
+    {
+      "website": "https://www.acuantcorp.com",
+      "code_signature": "",
+      "network_signature": "frm\\.acuant\\.net|services\\.assureid\\.net|medicscan\\.acuant\\.net",
+      "name": "Acuant"
+    },
+    {
+      "website": "https://ad4game.com",
+      "code_signature": "",
+      "network_signature": "ad4game.com",
+      "name": "Ad4Game"
+    },
+    {
+      "website": "http://www.ad4screen.com",
+      "code_signature": "com.ad4screen.sdk",
+      "network_signature": "a4\\.tl|accengage\\.com|ad4screen\\.com|ad4push\\.com",
+      "name": "Ad4Screen"
+    },
+    {
+      "website": "https://www.adadapted.com",
+      "code_signature": "com.adadapted.android.sdk.",
+      "network_signature": "ads.adadapted.com",
+      "name": "AdAdapted"
+    },
+    {
+      "website": "https://adbuddiz.com",
+      "code_signature": "com.purplebrain.adbuddiz.sdk.",
+      "network_signature": "sdk.adbuddiz.com",
+      "name": "AdBuddiz (by Purple Brain)"
+    },
+    {
+      "website": "http://adcolony.com/",
+      "code_signature": "com.adcolony",
+      "network_signature": "adc3-launch.adcolony.com|ads30.adcolony.com|androidads20.adcolony.com|androidads21.adcolony.com|androidads23.adcolony.com|events3alt.adcolony.com|wd.adcolony.com|adcolony.com",
+      "name": "AdColony"
+    },
+    {
+      "website": "https://www.daum.net",
+      "code_signature": "com.kakao.adfit.ads.",
+      "network_signature": "analytics.ad.daum.net|statistics.videofarm.daum.net",
+      "name": "AdFit (Daum)"
+    },
+    {
+      "website": "https://github.com/admuing",
+      "code_signature": "com.admuing.",
+      "network_signature": "",
+      "name": "AdMuing"
+    },
+    {
+      "website": "https://adtheorent.com",
+      "code_signature": "",
+      "network_signature": "bm\\.adentifi\\.com|rtb\\.adentifi\\.com|adtheorent\\.com",
+      "name": "AdTheorent"
+    },
+    {
+      "website": "http://ad-brix.com/",
+      "code_signature": "com.igaworks",
+      "network_signature": "ad\\-brix\\.com",
+      "name": "Adbrix"
+    },
+    {
+      "website": "https://adcash.com",
+      "code_signature": "com.adcash.mobileads.",
+      "network_signature": "",
+      "name": "Adcash"
+    },
+    {
+      "website": "http://adcenix.com",
+      "code_signature": "com.adcenix.",
+      "network_signature": "",
+      "name": "Adcenix"
+    },
+    {
+      "website": "https://www.addapptr.com",
+      "code_signature": "com.intentsoftware.addapptr.",
+      "network_signature": "aatkit\\.com",
+      "name": "Add Apt Tr"
+    },
+    {
+      "website": "http://www.made-apps.com/",
+      "code_signature": "com.adflake",
+      "network_signature": "metrics\\.adflake\\.com|api\\.adflake\\.com",
+      "name": "Adflake"
+    },
+    {
+      "website": "https://site.adform.com",
+      "code_signature": "com.adform.sdk.",
+      "network_signature": "track.adform.net|adformdsp.net|adform.com|adx.adform.net|files.adform.net",
+      "name": "Adform"
+    },
+    {
+      "website": "https://adfurikun.jp/adfurikun/",
+      "code_signature": "jp.tjkapp.adfurikunsdk.",
+      "network_signature": "ginf.adfurikun.jp|adfurikun.jp",
+      "name": "Adfurikun"
+    },
+    {
+      "website": "https://www.adincube.com/",
+      "code_signature": "com.adincube.sdk.",
+      "network_signature": "sdk.adincube.com",
+      "name": "Adincube"
+    },
+    {
+      "website": "https://www.adjust.com/",
+      "code_signature": "com.adjust.sdk.",
+      "network_signature": "adjust\\.com|adj\\.st",
+      "name": "Adjust"
+    },
+    {
+      "website": "http://admixer.co.kr/",
+      "code_signature": "com.admixer",
+      "network_signature": "admixer.co.kr",
+      "name": "Admixer"
+    },
+    {
+      "website": "https://admost.com/",
+      "code_signature": "admost.sdk.",
+      "network_signature": "cdn\\-api\\.admost\\.com|go\\.admost\\.com|med\\-api\\.admost\\.com",
+      "name": "Admost"
+    },
+    {
+      "website": "https://we-are-adot.com/",
+      "code_signature": "com.adotmob",
+      "network_signature": "sdk\\.adotmob\\.com|sync\\.adotmob\\.com|tracker\\.adotmob\\.com",
+      "name": "Adot"
+    },
+    {
+      "website": "http://www.adswizz.com/",
+      "code_signature": ".adswizz.",
+      "network_signature": "adswizz\\.com|cdn\\.adswizz.com\\.edgesuite\\.net",
+      "name": "AdsWizz"
+    },
+    {
+      "website": "https://adzerk.com/",
+      "code_signature": "",
+      "network_signature": "adzerk\\.com|engine\\.adzerk\\.net|static\\.adzerk\\.net|adzerk\\.net",
+      "name": "Adzerk"
+    },
+    {
+      "website": "https://www.aerserv.com/",
+      "code_signature": "com.aerserv.sdk.",
+      "network_signature": "ads.aerserv.com|debug.aerserv.com",
+      "name": "AerServ"
+    },
+    {
+      "website": "https://github.com/biodranik/Alohalytics/blob/master/README.md",
+      "code_signature": "org.alohalytics.",
+      "network_signature": "NC",
+      "name": "Alohalytics"
+    },
+    {
+      "website": "http://alphonso.tv",
+      "code_signature": "tv.alphonso.service",
+      "network_signature": "prov.alphonso.tv|api.alphonso.tv",
+      "name": "Alphonso"
+    },
+    {
+      "website": "https://altbeacon.org",
+      "code_signature": "org.altbeacon.beacon.|com.altbeacon.beacon.",
+      "network_signature": "",
+      "name": "AltBeacon"
+    },
+    {
+      "website": "https://www.altamob.com/en/index.html",
+      "code_signature": "com.altamob",
+      "network_signature": "api.altamob.com",
+      "name": "Altamob"
+    },
+    {
+      "website": "https://developer.amazon.com/public/apis/earn/mobile-ads/docs/quick-start",
+      "code_signature": "com.amazon.device.ads",
+      "network_signature": "NC",
+      "name": "Amazon Advertisement"
+    },
+    {
+      "website": "https://developer.amazon.com/public/apis/manage/analytics/docs/analytics-for-android-fire-os",
+      "code_signature": "com.amazon.insights|com.amazonaws.mobileconnectors.pinpoint.analytics.",
+      "network_signature": "mobileanalytics.us-east-1.amazonaws.com",
+      "name": "Amazon Analytics"
+    },
+    {
+      "website": "https://developer.amazon.com/mobile-associates",
+      "code_signature": "com.amazon.device.associates",
+      "network_signature": "NC",
+      "name": "Amazon Mobile Associates"
+    },
+    {
+      "website": "https://www.amoad.com",
+      "code_signature": "com.amoad.",
+      "network_signature": "",
+      "name": "Amoad"
+    },
+    {
+      "website": "https://amobee.com",
+      "code_signature": "com.amobee.",
+      "network_signature": "amobee\\.com",
+      "name": "Amobee"
+    },
+    {
+      "website": "http://www.amplitude.com",
+      "code_signature": "com.amplitude.",
+      "network_signature": "api.amplitude.com|amplitude.com",
+      "name": "Amplitude"
+    },
+    {
+      "website": "https://anagog.com",
+      "code_signature": "com.anagog",
+      "network_signature": "",
+      "name": "Anagog"
+    },
+    {
+      "website": "https://answers.io/",
+      "code_signature": "com.crashlytics.android.answers",
+      "network_signature": "apps\\.crashlytics\\.com|apps\\-ios\\.crashlytics\\.com|e\\.crashlytics\\.com|reports\\.crashlytics\\.com|settings\\.crashlytics\\.com|try.crashlytics\\.com|crashlytics\\.com",
+      "name": "Answers"
+    },
+    {
+      "website": "http://anysdk.com",
+      "code_signature": "com.anysdk.",
+      "network_signature": "",
+      "name": "AnySDK"
+    },
+    {
+      "website": "https://aotter.net",
+      "code_signature": "",
+      "network_signature": "aotter\\.net",
+      "name": "Aotter"
+    },
+    {
+      "website": "http://appanalytics.io/",
+      "code_signature": "io.appanalytics.sdk",
+      "network_signature": "NC",
+      "name": "AppAnalytics"
+    },
+    {
+      "website": "https://www.appbrain.com/info/help/sdk/index.html",
+      "code_signature": "com.appbrain.",
+      "network_signature": "sdk.appbrain.com",
+      "name": "AppBrain"
+    },
+    {
+      "website": "https://www.applovin.com/",
+      "code_signature": "com.applovin",
+      "network_signature": "applovin\\.com|applvn\\.com",
+      "name": "AppLovin"
+    },
+    {
+      "website": "https://tech.yandex.com/metrica-mobile-sdk/",
+      "code_signature": "com.yandex.metrica.",
+      "network_signature": "appmetrica.yandex.com|report.appmetrica.yandex.net|analytics.mobile.yandex.net|banners.mobile.yandex.net|banners-slb.mobile.yandex.net|startup.mobile.yandex.net|mc.yandex.ru",
+      "name": "AppMetrica"
+    },
+    {
+      "website": "http://appmonet.com",
+      "code_signature": "com.monet.",
+      "network_signature": "NC",
+      "name": "AppMonet"
+    },
+    {
+      "website": "https://www.appnexus.com/",
+      "code_signature": "com.appnexus.opensdk.",
+      "network_signature": "adnxs\\.com|247realmedia\\.com|appnexus\\.com|appnexus\\.net",
+      "name": "AppNexus"
+    },
+    {
+      "website": "https://www.appsee.com/",
+      "code_signature": "com.appsee.",
+      "network_signature": "api.appsee.com",
+      "name": "AppSee"
+    },
+    {
+      "website": "https://www.appcelerator.com",
+      "code_signature": "com.appcelerator.aps.",
+      "network_signature": "appcelerator.com|appcelerator.net",
+      "name": "Appcelerator"
+    },
+    {
+      "website": "https://www.appcelerator.com",
+      "code_signature": "org.appcelerator.titanium.analytics",
+      "network_signature": "",
+      "name": "Appcelerator Titanium"
+    },
+    {
+      "website": "https://www.appdynamics.com/",
+      "code_signature": "com.appdynamics.",
+      "network_signature": "NC",
+      "name": "Appdynamics"
+    },
+    {
+      "website": "http://www.applause.com",
+      "code_signature": "com.applause.android.",
+      "network_signature": "NC",
+      "name": "Applause"
+    },
+    {
+      "website": "https://www.appnext.com/",
+      "code_signature": "com.appnext.",
+      "network_signature": "\\appnext.com",
+      "name": "Appnext"
+    },
+    {
+      "website": "https://www.appodeal.com",
+      "code_signature": "com.appodeal.ads.",
+      "network_signature": "appodeal.com|appodealx.com",
+      "name": "Appodeal"
+    },
+    {
+      "website": "http://AppsFlyer.com",
+      "code_signature": "com.appsflyer.",
+      "network_signature": "appsflyer\\.com",
+      "name": "AppsFlyer"
+    },
+    {
+      "website": "https://www.apptentive.com/",
+      "code_signature": "com.apptentive.",
+      "network_signature": "api.apptentive.com",
+      "name": "Apptentive"
+    },
+    {
+      "website": "http://www.apptimize.com",
+      "code_signature": "com.apptimize.",
+      "network_signature": "brahe.apptimize.com|md-a-c.apptimize.com|md-a-s.apptimize.com",
+      "name": "Apptimize"
+    },
+    {
+      "website": "https://apsalar.com",
+      "code_signature": "com.apsalar.sdk.",
+      "network_signature": "e\\.apsalar\\.com|e-ssl\\.apsalar\\.com",
+      "name": "Apsalar"
+    },
+    {
+      "website": "http://www.apteligent.com",
+      "code_signature": "com.crittercism.app.Crittercism",
+      "network_signature": "api.crittercism.com|appload.ingest.crittercism.com|txn.ingest.crittercism.com",
+      "name": "Apteligent by VMWare (formerly Crittercism)"
+    },
+    {
+      "website": "https://areametrics.com/",
+      "code_signature": "com.areametrics.areametricssdk|com.areametrics.nosdkandroid",
+      "network_signature": "areametrics\\.com",
+      "name": "Areametrics"
+    },
+    {
+      "website": "https://www.adobe.com/privacy/policies/auditude.html",
+      "code_signature": "com.auditude.ads",
+      "network_signature": "auditude.com",
+      "name": "Auditude"
+    },
+    {
+      "website": "http://avazuinc.com",
+      "code_signature": "",
+      "network_signature": "avazutracking\\.net",
+      "name": "Avazu"
+    },
+    {
+      "website": "http://axonix.com/",
+      "code_signature": "com\\.axonix\\.android\\.sdk|com\\.mobclix\\.android\\.sdk",
+      "network_signature": "axonix\\.com|ads\\.mobclix\\.com|data\\.mobclix\\.com|s\\.mobclix\\.com|mobclix\\.com",
+      "name": "Axonix(mobclix)"
+    },
+    {
+      "website": "https://www.backelite.com/",
+      "code_signature": "com.backelite.android.|com.backelite.bkdroid.",
+      "network_signature": "backelite\\.com",
+      "name": "Backelite"
+    },
+    {
+      "website": "https://backtrace.io",
+      "code_signature": "",
+      "network_signature": "backtrace\\.io",
+      "name": "Backtrace"
+    },
+    {
+      "website": "https://app.baidu.com/",
+      "code_signature": "com.baidu.appx",
+      "network_signature": "NC",
+      "name": "Baidu APPX"
+    },
+    {
+      "website": "https://developer.baidu.com/",
+      "code_signature": "com.baidu.location",
+      "network_signature": "NC",
+      "name": "Baidu Location"
+    },
+    {
+      "website": "http://lbsyun.baidu.com/",
+      "code_signature": "com.baidu.mapapi",
+      "network_signature": "NC",
+      "name": "Baidu Map"
+    },
+    {
+      "website": "https://map.baidu.com",
+      "code_signature": "com.baidu.BaiduMap",
+      "network_signature": "map\\.baidu\\.com",
+      "name": "Baidu Maps"
+    },
+    {
+      "website": "https://developer.baidu.com/",
+      "code_signature": "com.baidu.mobads",
+      "network_signature": "NC",
+      "name": "Baidu Mobile Ads"
+    },
+    {
+      "website": "https://developer.baidu.com/",
+      "code_signature": "com.baidu.mobstat",
+      "network_signature": "NC",
+      "name": "Baidu Mobile Stat"
+    },
+    {
+      "website": "http://lbsyun.baidu.com/index.php?title=android-navsdk",
+      "code_signature": "com.baidu.navi",
+      "network_signature": "NC",
+      "name": "Baidu Navigation"
+    },
+    {
+      "website": "https://batch.com",
+      "code_signature": "com.batch.android.",
+      "network_signature": "batch\\.com",
+      "name": "Batch"
+    },
+    {
+      "website": "https://www.bazaarvoice.com/",
+      "code_signature": "com.bazaarvoice.bvandroidsdk",
+      "network_signature": "",
+      "name": "Bazaarvoice"
+    },
+    {
+      "website": "https://beaconsinspace.com",
+      "code_signature": "com.beaconsinspace.android.beacon.detector.",
+      "network_signature": "",
+      "name": "BeaconsInSpace (Fysical)"
+    },
+    {
+      "website": "https://www.beemray.com",
+      "code_signature": "com.beemray.",
+      "network_signature": "",
+      "name": "Beemray"
+    },
+    {
+      "website": "https://bitly.com/",
+      "code_signature": "com.bitly.Bitly",
+      "network_signature": "",
+      "name": "Bitly"
+    },
+    {
+      "website": "https://www.blesh.com/",
+      "code_signature": "com.blesh.sdk.",
+      "network_signature": "NC",
+      "name": "Blesh"
+    },
+    {
+      "website": "https://www.blueconic.com",
+      "code_signature": "com.blueconic",
+      "network_signature": "NC",
+      "name": "BlueConic"
+    },
+    {
+      "website": "http://bluekai.com/registry/",
+      "code_signature": "com.bluekai.sdk.",
+      "network_signature": "stags.bluekai.com|tags.bluekai.com",
+      "name": "BlueKai (acquired by Oracle)"
+    },
+    {
+      "website": "https://www.bluecats.com/",
+      "code_signature": "com.bluecats.sdk",
+      "network_signature": "",
+      "name": "Bluecats"
+    },
+    {
+      "website": "https://branch.io/",
+      "code_signature": "io.branch.",
+      "network_signature": "api.branch.io",
+      "name": "Branch"
+    },
+    {
+      "website": "https://www.braze.com",
+      "code_signature": "com.appboy",
+      "network_signature": "appboy\\.com",
+      "name": "Braze (formerly Appboy)"
+    },
+    {
+      "website": "https://www.brightcove.com",
+      "code_signature": "com.brightcove",
+      "network_signature": "metrics.brightcove.com/v2/tracker",
+      "name": "Brightcove"
+    },
+    {
+      "website": "https://bugfender.com/",
+      "code_signature": "com.bugfender.sdk.",
+      "network_signature": "",
+      "name": "Bugfender"
+    },
+    {
+      "website": "https://bugly.qq.com/v2/",
+      "code_signature": "com.tencent.bugly.",
+      "network_signature": "bugly.qq.com",
+      "name": "Bugly"
+    },
+    {
+      "website": "http://carnival.io/",
+      "code_signature": "com.carnival.sdk|com.carnivalmobile",
+      "network_signature": "devices.carnivalmobile.com",
+      "name": "Carnival"
+    },
+    {
+      "website": "https://www.cauly.net",
+      "code_signature": "com\\.fsn\\.cauly|com\\.trid\\.tridad",
+      "network_signature": "ad\\.cauly\\.co\\.kr",
+      "name": "Cauly"
+    },
+    {
+      "website": "https://www.cedexis.com/",
+      "code_signature": "",
+      "network_signature": "radar\\.cedexis\\.com|cedexis\\.com|cedexis\\-radar\\.net",
+      "name": "Cedexis"
+    },
+    {
+      "website": "https://answers.chartboost.com/en-us/",
+      "code_signature": "com.chartboost.sdk.",
+      "network_signature": "\\.chartboost\\.com",
+      "name": "ChartBoost"
+    },
+    {
+      "website": "https://chartbeat.com/",
+      "code_signature": "com.chartbeat.",
+      "network_signature": "\\.chartbeat\\.com|\\.chartbeat\\.net",
+      "name": "Chartbeat"
+    },
+    {
+      "website": "https://www.cmcm.com/",
+      "code_signature": "com.cmcm.",
+      "network_signature": "\\cmcm.com",
+      "name": "Cheetah Ads"
+    },
+    {
+      "website": "http://cifrasoft.com",
+      "code_signature": "com.cirasoft",
+      "network_signature": ".tele.fm",
+      "name": "Cifrasoft"
+    },
+    {
+      "website": "https://clevertap.com/",
+      "code_signature": "com.clevertap.",
+      "network_signature": "wzrkt.com",
+      "name": "CleverTap"
+    },
+    {
+      "website": "http://www.cloudmobi.net/",
+      "code_signature": "com.cloudtech.",
+      "network_signature": "api\\.cloudmobi\\.net|logger\\.cloudmobi\\.net|vast\\.cloudmobi\\.net|cloudmobi\\.net",
+      "name": "Cloudmobi"
+    },
+    {
+      "website": "https://developers.colocator.net",
+      "code_signature": "net.crowdconnected.androidcolocator",
+      "network_signature": "colocator\\.net",
+      "name": "Colocator"
+    },
+    {
+      "website": "https://comscore.com/",
+      "code_signature": "com.comscore.",
+      "network_signature": "comscore\\.com",
+      "name": "ComScore"
+    },
+    {
+      "website": "https://www.connecthings.com",
+      "code_signature": "com.connecthings.",
+      "network_signature": "",
+      "name": "Connecthings"
+    },
+    {
+      "website": "https://www.conversantmedia.com",
+      "code_signature": "com.conversantmedia",
+      "network_signature": "conversantmedia\\.com",
+      "name": "Conversant"
+    },
+    {
+      "website": "https://www.conviva.com/",
+      "code_signature": "com.conviva.",
+      "network_signature": "cws.conviva.com",
+      "name": "Conviva"
+    },
+    {
+      "website": "https://count.ly/",
+      "code_signature": "ly.count.android.",
+      "network_signature": "NC",
+      "name": "Countly"
+    },
+    {
+      "website": "https://www.criteo.com/",
+      "code_signature": "com.criteo.",
+      "network_signature": "\\criteo.com",
+      "name": "Criteo"
+    },
+    {
+      "website": "https://www.crowdtangle.com/",
+      "code_signature": ".",
+      "network_signature": "api\\.crowdtangle\\.com",
+      "name": "CrowdTangle"
+    },
+    {
+      "website": "http://www.cuebiq.com/",
+      "code_signature": "com.cuebiq.cuebiqsdk.model.Collector|com.cuebiq.cuebiqsdk.receiver.CoverageReceiver",
+      "network_signature": "cuebiq\\.com",
+      "name": "Cuebiq"
+    },
+    {
+      "website": "https://www.dov-e.com/",
+      "code_signature": "com.dv.",
+      "network_signature": ".dov-e.com",
+      "name": "DOV-E"
+    },
+    {
+      "website": "https://click.dawin.tv/poc/#/init",
+      "code_signature": "",
+      "network_signature": "adotsolution\\.com|click\\.dawin\\.tv",
+      "name": "Dawin"
+    },
+    {
+      "website": "https://www.adobe.com/data-analytics-cloud/audience-manager.html",
+      "code_signature": "com.adobe.mobile.Analytics",
+      "network_signature": "demdex\\.net",
+      "name": "Demdex"
+    },
+    {
+      "website": "https://www.display.io/en/",
+      "code_signature": "io.display.",
+      "network_signature": "\\display.io",
+      "name": "Display"
+    },
+    {
+      "website": "http://ad.duapps.com/",
+      "code_signature": "com.duapps.",
+      "network_signature": "duapps.com",
+      "name": "Duapps"
+    },
+    {
+      "website": "https://www.dynamicyield.com",
+      "code_signature": "com.dynamicyield.",
+      "network_signature": "cdn.dynamicyield.com|adm.dynamicyield.com|api.dynamicyield.com|px.dynamicyield.com|st.dynamicyield.com",
+      "name": "Dynamic Yield"
+    },
+    {
+      "website": "http://www.dynatrace.com",
+      "code_signature": "com.dynatrace.android.app.",
+      "network_signature": "NC",
+      "name": "Dynatrace"
+    },
+    {
+      "website": "https://evrythng.com",
+      "code_signature": "com.evrythng",
+      "network_signature": "mqtt.evrythng.com",
+      "name": "EVRYTHNG"
+    },
+    {
+      "website": "http://en.ehawk.com/",
+      "code_signature": "com.hawk",
+      "network_signature": "\\ehawk.com",
+      "name": "Ehawk"
+    },
+    {
+      "website": "https://help.emarsys.com/hc/en-us/articles/115004663045-Predict-Overview",
+      "code_signature": "com.emarsys.",
+      "network_signature": "recommender.scarabresearch.com",
+      "name": "EmarsysPredict"
+    },
+    {
+      "website": "https://enhance.co",
+      "code_signature": "co.enhance.",
+      "network_signature": "app-config.enhance.co|data-location.enhance.co",
+      "name": "Enhance"
+    },
+    {
+      "website": "https://www.ensighten.com",
+      "code_signature": "com.ensighten.",
+      "network_signature": "nexus.ensighten.com",
+      "name": "Ensighten"
+    },
+    {
+      "website": "https://www.esri.com",
+      "code_signature": "com.esri.arcgisruntime.",
+      "network_signature": "",
+      "name": "Esri: ArcGIS"
+    },
+    {
+      "website": "https://estimote.com/",
+      "code_signature": "com.estimote.",
+      "network_signature": "NC",
+      "name": "Estimote"
+    },
+    {
+      "website": "https://www.eulerian.com/en/",
+      "code_signature": "com.eulerian.android.sdk",
+      "network_signature": "eulerian\\.com",
+      "name": "Eulerian"
+    },
+    {
+      "website": "https://www.evidon.com/",
+      "code_signature": "com.evidon.",
+      "network_signature": "c.betrad.com",
+      "name": "Evidon (now Crownpeak)"
+    },
+    {
+      "website": "http://help.exacttarget.com/en/technical_library/API_Overview/",
+      "code_signature": "com.exacttarget.",
+      "network_signature": "\\.exacttarget\\.",
+      "name": "ExactTarget"
+    },
+    {
+      "website": "http://www.exelate.com",
+      "code_signature": "",
+      "network_signature": "loadus.exelator.com",
+      "name": "Exelate (A Nielsen Company)"
+    },
+    {
+      "website": "https://www.fluzo.com/",
+      "code_signature": "com.fluzo.sdk.",
+      "network_signature": "NC",
+      "name": "FLUZO"
+    },
+    {
+      "website": "https://developers.facebook.com/docs/android",
+      "code_signature": "com.facebook.ads",
+      "network_signature": "\\.facebook\\.com",
+      "name": "Facebook Ads"
+    },
+    {
+      "website": "https://developers.facebook.com/docs/android",
+      "code_signature": "com.facebook.appevents",
+      "network_signature": "\\.facebook\\.com",
+      "name": "Facebook Analytics"
+    },
+    {
+      "website": "https://developers.facebook.com/docs/android/",
+      "code_signature": "com.facebook.audiencenetwork",
+      "network_signature": "\\.facebook\\.com",
+      "name": "Facebook Audience"
+    },
+    {
+      "website": "https://developers.facebook.com/docs/android",
+      "code_signature": "com.facebook.login",
+      "network_signature": "\\.facebook\\.com",
+      "name": "Facebook Login"
+    },
+    {
+      "website": "https://developers.facebook.com/docs/android",
+      "code_signature": "com.facebook.notifications",
+      "network_signature": "\\.facebook\\.com",
+      "name": "Facebook Notifications"
+    },
+    {
+      "website": "https://developers.facebook.com/docs/android",
+      "code_signature": "com.facebook.places",
+      "network_signature": "\\.facebook\\.com",
+      "name": "Facebook Places"
+    },
+    {
+      "website": "https://developers.facebook.com/docs/android",
+      "code_signature": "com.facebook.share",
+      "network_signature": "\\.facebook\\.com",
+      "name": "Facebook Share"
+    },
+    {
+      "website": "https://www.fidzup.com",
+      "code_signature": "com.fidzup.",
+      "network_signature": "fidzup",
+      "name": "FidZup"
+    },
+    {
+      "website": "https://fiksu.com",
+      "code_signature": "com.fiksu.asotracking",
+      "network_signature": "a.fiksu.com|sdk.fiksu.com",
+      "name": "Fiksu"
+    },
+    {
+      "website": "https://developer.yahoo.com/flurry/",
+      "code_signature": "com.flurry.",
+      "network_signature": "flurry\\.com",
+      "name": "Flurry"
+    },
+    {
+      "website": "https://www.followanalytics.com",
+      "code_signature": "com.followanalytics.|com.followapps.",
+      "network_signature": "sdk.follow-apps.com",
+      "name": "FollowAnalytics"
+    },
+    {
+      "website": "https://www.foresee.com",
+      "code_signature": "com.foresee.sdk.ForeSee",
+      "network_signature": "4seeresults.com|analytics.foresee.com|i.4see.mobi|rec.replay.answerscloud.com|foreseeresults.com|foresee.com",
+      "name": "Foresee"
+    },
+    {
+      "website": "http://freewheel.tv/",
+      "code_signature": "tv.freewheel.ad.",
+      "network_signature": "fwmrm.net",
+      "name": "Freewheel (a Comcast Company)"
+    },
+    {
+      "website": "https://www.fyber.com/",
+      "code_signature": "com.fyber.",
+      "network_signature": "adproxy.fyber.com|appengage-video.fyber.com|banner.fyber.com|engine.fyber.com|interstitial.fyber.com|mbe-cdn.fyber.com|offer.fyber.com|service.fyber.com|tracker.fyber.com|video.fyber.com|video-interstitial-assets-cdn.fyber.com",
+      "name": "Fyber"
+    },
+    {
+      "website": "http://www.sponsorpay.com",
+      "code_signature": "com.sponsorpay",
+      "network_signature": "appengage-video.sponsorpay.com|cdn1.sponsorpay.com|cdn2.sponsorpay.com|cdn3.sponsorpay.com|cdn4.sponsorpay.com|engine.sponsorpay.com",
+      "name": "Fyber SponsorPay"
+    },
+    {
+      "website": "https://gpshopper.com/",
+      "code_signature": "com.gpshopper",
+      "network_signature": "sypi.gpshopper.com|sdk.gpshopper.com",
+      "name": "GPShopper"
+    },
+    {
+      "website": "https://www.gigya.com",
+      "code_signature": "com.gigya.",
+      "network_signature": "cdn.gigya.com|cdn1.gigya.com|cdn2.gigya.com|cdn3.gigya.com|cdns.us1.gigya.com",
+      "name": "Gigya"
+    },
+    {
+      "website": "https://gimbal.com/",
+      "code_signature": "com.gimbal.android",
+      "network_signature": "analytics-server.gimbal.com|api.gimbal.com|registration.gimbal.com|sdk-info.gimbal.com",
+      "name": "Gimbal"
+    },
+    {
+      "website": "https://www.glispa.com",
+      "code_signature": "com.avocarrot.sdk",
+      "network_signature": "\\.avocarrot\\.com|ads\\.glispa\\.com|exp\\.glispa\\.com|rtb\\.platform\\.glispa\\.com|trk\\.glispa\\.com|templates\\.glispaconnect\\.com",
+      "name": "Glispa Connect (Formerly Avocarrot)"
+    },
+    {
+      "website": "https://developers.google.com/admob/android",
+      "code_signature": "com.google.android.gms.ads.mediation.",
+      "network_signature": "\\.google\\.com",
+      "name": "Google Ads"
+    },
+    {
+      "website": "http://www.google.com/analytics/",
+      "code_signature": "com.google.android.apps.analytics.|com.google.android.gms.analytics.",
+      "network_signature": "google-analytics\\.com",
+      "name": "Google Analytics"
+    },
+    {
+      "website": "http://crashlytics.com",
+      "code_signature": "io.fabric.|com.crashlytics.",
+      "network_signature": "crashlytics\\.com",
+      "name": "Google CrashLytics"
+    },
+    {
+      "website": "https://www.doubleclickbygoogle.com/",
+      "code_signature": "com.google.android.gms.ads.doubleclick",
+      "network_signature": "mng-ads\\.com|doubleclick\\.net|doubleclick\\.com|2mdn\\.net|dmtry\\.com",
+      "name": "Google DoubleClick"
+    },
+    {
+      "website": "https://firebase.google.com/",
+      "code_signature": "com.google.firebase.analytics.|com.google.android.gms.measurement.",
+      "network_signature": "firebase\\.com",
+      "name": "Google Firebase Analytics"
+    },
+    {
+      "website": "https://www.google.com/analytics/tag-manager/",
+      "code_signature": "com.google.tagmanager",
+      "network_signature": "www.googletagmanager.com|www.googletagservices.com",
+      "name": "Google Tag Manager"
+    },
+    {
+      "website": "https://www.helpshift.com",
+      "code_signature": "com.helpshift",
+      "network_signature": "helpshift.com",
+      "name": "HelpShift"
+    },
+    {
+      "website": "https://www.heyzap.com",
+      "code_signature": "com.heyzap.sdk.ads.",
+      "network_signature": "ads.heyzap.com|fyc.heyzap.com|med.heyzap.com|x.heyzap.com|img-cloudflare.haizap.com|img-cloudflare-2.haizap.com",
+      "name": "Heyzap (bought by Fyber)"
+    },
+    {
+      "website": "http://hockeyapp.net",
+      "code_signature": "net.hockeyapp.",
+      "network_signature": "hockeyapp\\.net",
+      "name": "HockeyApp"
+    },
+    {
+      "website": "http://hypertrack.com",
+      "code_signature": "com.hypertrack|com.hypertracklive.|io.hypertrack",
+      "network_signature": "trck\\.at|hypertrack\\.amazonaws\\.com|api\\.hypertrack\\.com",
+      "name": "HyperTrack"
+    },
+    {
+      "website": "https://www.hyprmx.com",
+      "code_signature": "com.hyprmx.android.sdk.",
+      "network_signature": "hyprmx.com",
+      "name": "HyprMX"
+    },
+    {
+      "website": "https://www.ibm.com/customer-engagement/coremetrics-software",
+      "code_signature": "com.digitalanalytics.",
+      "network_signature": "data.de.coremetrics.com",
+      "name": "IBM Digital Analytics"
+    },
+    {
+      "website": "https://www.ibm.com/digital-marketing/mobile-marketing",
+      "code_signature": "com.ibm.mce.sdk.",
+      "network_signature": "sdk6.ibm.xtify.com",
+      "name": "IBM Mobile Marketing"
+    },
+    {
+      "website": "https://www.infonline.de",
+      "code_signature": "de.infonline.",
+      "network_signature": "de.ioam.de",
+      "name": "INFOnline"
+    },
+    {
+      "website": "https://inloco.com.br/en/",
+      "code_signature": "com.inlocomedia.android",
+      "network_signature": "inlocomedia.com",
+      "name": "In Loco"
+    },
+    {
+      "website": "http://www.indooratlas.com/",
+      "code_signature": "com.indooratlas.android.sdk",
+      "network_signature": "ipsws.indooratlas.com",
+      "name": "IndoorAtlas"
+    },
+    {
+      "website": "https://inmarket.com/",
+      "code_signature": "com.inmarket",
+      "network_signature": "m2m-api.inmarket.com",
+      "name": "Inmarket"
+    },
+    {
+      "website": "http://inmobi.com",
+      "code_signature": "com.inmobi",
+      "network_signature": "c\\.w\\.inmobi\\.com|china\\.inmobi\\.com|config-ltvp\\.inmobi\\.com|config\\.inmobi\\.com|et\\.w\\.inmobi\\.com|i\\.l\\.inmobicdn\\.net|i\\.w\\.inmobi\\.com|inmobi\\.cn|inmobi\\.com|inmobi\\.info|inmobi\\.net|inmobi\\.us|inmobicdn\\.com|inmobicdn\\.net|inmobisdk\\-a\\.akamaihd\\.net|japan\\.inmobi\\.com|r\\.w\\.inmobi\\.com|sdkm\\.w\\.inmobi\\.com|sdktm\\.w\\.inmobi\\.com|w\\.inmobi\\.com",
+      "name": "Inmobi"
+    },
+    {
+      "website": "http://inrix.com/",
+      "code_signature": "com.inrix.sdk",
+      "network_signature": "inrix\\.com|inrix\\.io",
+      "name": "Inrix"
+    },
+    {
+      "website": "http://instreamatic.com/",
+      "code_signature": "com.instreamatic",
+      "network_signature": "instreamatic.com",
+      "name": "Instreamatic"
+    },
+    {
+      "website": "https://integralads.com/",
+      "code_signature": "com.integralads.avid.library",
+      "network_signature": "",
+      "name": "Integral Ads"
+    },
+    {
+      "website": "http://www.intrasonics.com/",
+      "code_signature": "com.intrasonics.",
+      "network_signature": "NC",
+      "name": "Intrasonics"
+    },
+    {
+      "website": "https://jwplayer.com",
+      "code_signature": "com.longtailvideo.jwplayer.",
+      "network_signature": "jwpltx\\.com|p\\.jwpcdn\\.com|g\\.jwpsrv\\.com",
+      "name": "JW Player"
+    },
+    {
+      "website": "https://keen.io",
+      "code_signature": "io.keen.client.",
+      "network_signature": "api.keen.io",
+      "name": "Keen"
+    },
+    {
+      "website": "https://www.kochava.com/",
+      "code_signature": "com.kochava.base.Tracker|com.kochava.android.tracker.",
+      "network_signature": "control\\.kochava\\.com|kvinit\\-prod\\.api\\.kochava\\.com",
+      "name": "Kochava"
+    },
+    {
+      "website": "https://kontakt.io/",
+      "code_signature": "com.kontakt.sdk.android.",
+      "network_signature": "kontakt.io",
+      "name": "Kontakt"
+    },
+    {
+      "website": "https://www.salesforce.com/products/marketing-cloud/data-management",
+      "code_signature": "com.krux.androidsdk",
+      "network_signature": "krxd\\.net",
+      "name": "Krux"
+    },
+    {
+      "website": "https://www.leanplum.com/",
+      "code_signature": "com.leanplum.",
+      "network_signature": "leanplum\\.com",
+      "name": "LeanPlum"
+    },
+    {
+      "website": "https://www.lenddo.com/",
+      "code_signature": "com.lenddo.mobile",
+      "network_signature": ".partner-service.link",
+      "name": "Lenddo"
+    },
+    {
+      "website": "http://ligatus.com",
+      "code_signature": ".LigatusManager|.LigatusViewClient|com\\.ligatus",
+      "network_signature": "ligatus\\.com",
+      "name": "Ligatus"
+    },
+    {
+      "website": "http://lisnr.com",
+      "code_signature": "com.lisnr.",
+      "network_signature": "lisnr\\.com",
+      "name": "Lisnr"
+    },
+    {
+      "website": "http://localytics.com",
+      "code_signature": "com.localytics.android.",
+      "network_signature": "analytics\\.localytics\\.com|manifest\\.localytics\\.com|profile\\.localytics\\.com|sdk-assets\\.localytics\\.com",
+      "name": "Localytics"
+    },
+    {
+      "website": "http://locuslabs.com",
+      "code_signature": "com.locuslabs.sdk",
+      "network_signature": "locuslabs\\.com",
+      "name": "Locuslabs"
+    },
+    {
+      "website": "http://loggly.com/",
+      "code_signature": "com.github.tony19.timber.loggly|com.github.tony19.loggly|com.visiware.sync2ad.logger.loggly.",
+      "network_signature": "loggly\\.com",
+      "name": "Loggly"
+    },
+    {
+      "website": "https://www.lotame.com/",
+      "code_signature": "com.lotame.",
+      "network_signature": "ad.crwdcntrl.net",
+      "name": "Lotame"
+    },
+    {
+      "website": "http://madvertise.com",
+      "code_signature": "com.mngads.sdk|com.mngads.views|com.mngads.",
+      "network_signature": "dispatcher\\.mng\\-ads\\.com|mobile\\.mng\\-ads\\.com",
+      "name": "MAdvertise"
+    },
+    {
+      "website": "http://MParticle.com",
+      "code_signature": "com.mparticle",
+      "network_signature": "mparticle\\.com",
+      "name": "MParticle"
+    },
+    {
+      "website": "https://www.mapbox.com/",
+      "code_signature": "com.mapbox.mapboxsdk.",
+      "network_signature": "a.tiles.mapbox.com|api.tiles.mapbox.com",
+      "name": "Mapbox"
+    },
+    {
+      "website": "https://marketo.com",
+      "code_signature": "com.marketo",
+      "network_signature": "mktossl\\.com|mktoedge\\.com|marketo\\.com|marketo\\.net",
+      "name": "Marketo (an Adobe Company)"
+    },
+    {
+      "website": "https://matomo.org/mobile",
+      "code_signature": "org.piwik|org.piwik.mobile|org.matomo",
+      "network_signature": "matomo\\.org",
+      "name": "Matomo (Piwik)"
+    },
+    {
+      "website": "https://www.mediba.jp",
+      "code_signature": "com\\.mediba\\.jp|mediba\\.ad\\.sdk\\.android\\.openx",
+      "network_signature": "",
+      "name": "Mediba"
+    },
+    {
+      "website": "https://www.millennialmedia.com/",
+      "code_signature": "com.millennialmedia.",
+      "network_signature": "contextual.media.net|media.net|millennialmedia.com|adtech\\.de",
+      "name": "Millennial Media"
+    },
+    {
+      "website": "https://www.mintegral.com/en/",
+      "code_signature": "com.mintegral.",
+      "network_signature": "analytics.rayjump.com|cdn-adn.rayjump.com|de.rayjump.com|de01.rayjump.com|detect.rayjump.com|fk-mtrack.rayjump.com|hybird.rayjump.com|jssdk.rayjump.com|net.rayjump.com|online.rayjump.com|setting.rayjump.com|sg.rayjump.com|sg-mtrack.rayjump.com|sg01.rayjump.com|tknet.rayjump.com|us01.rayjump.com|rayjump.com",
+      "name": "Mintegral"
+    },
+    {
+      "website": "https://mixpanel.com/",
+      "code_signature": "com.mixpanel.",
+      "network_signature": "api\\.mixpanel\\.com|decide\\.mixpanel\\.com|switchboard\\.mixpanel\\.com|mixpanel\\.com",
+      "name": "MixPanel"
+    },
+    {
+      "website": "https://www.moengage.com/",
+      "code_signature": "com.moengage.",
+      "network_signature": "apiv2.moengage.com",
+      "name": "MoEngage"
+    },
+    {
+      "website": "https://moat.com/analytics",
+      "code_signature": "com.moat.analytics.mobile.",
+      "network_signature": "moat\\.com|apx\\.moatads\\.com|geo\\.moatads\\.com|js\\.moatads\\.com|mb\\.moatads\\.com|pixel\\.moatads\\.com|px\\.moatads\\.com|sejs\\.moatads\\.com|yt\\.moatads\\.com|yts\\.moatads\\.com|z\\.moatads\\.com",
+      "name": "Moat"
+    },
+    {
+      "website": "https://www.mobfox.com/",
+      "code_signature": "com.mobfox.",
+      "network_signature": "NC",
+      "name": "MobFox"
+    },
+    {
+      "website": "https://docs.microsoft.com/en-us/azure/mobile-engagement/mobile-engagement-android-sdk-overview",
+      "code_signature": "com.ubikod.capptain.|com.microsoft.azure.engagement.",
+      "network_signature": "login\\.microsoftonline\\.com|management\\.azure\\.com",
+      "name": "Mobile Engagement"
+    },
+    {
+      "website": "https://mobiquitynetworks.com",
+      "code_signature": "com.mobiquitynetworks.",
+      "network_signature": "",
+      "name": "Mobiquity Networks"
+    },
+    {
+      "website": "https://home.mobpowertech.com/",
+      "code_signature": "com.mobpower.",
+      "network_signature": "api\\.mobpowertech\\.com|log\\.mobpowertech\\.com|scheme\\.mobpowertech\\.com|mobpowertech\\.com",
+      "name": "Mobpower"
+    },
+    {
+      "website": "https://www.mobvista.com/",
+      "code_signature": "com.mobvista.",
+      "network_signature": "mobvista\\.com",
+      "name": "Mobvista"
+    },
+    {
+      "website": "https://www.mocaplatform.com/",
+      "code_signature": "com.innoquant.moca",
+      "network_signature": "api-device.mocaplatform.com",
+      "name": "Moca"
+    },
+    {
+      "website": "https://wiki.mozilla.org/Telemetry",
+      "code_signature": "org.mozilla.telemetry|org.mozilla.gecko.telemetry",
+      "network_signature": "",
+      "name": "Mozilla Telemetry"
+    },
+    {
+      "website": "http://www.nativex.com/",
+      "code_signature": "com.nativex",
+      "network_signature": "nativex\\.com",
+      "name": "NativeX"
+    },
+    {
+      "website": "http://www.newrelic.com",
+      "code_signature": "com.newrelic.agent.",
+      "network_signature": "js-agent.newrelic.com|mobile-collector.newrelic.com|newrelic.com|nr-data.net",
+      "name": "New Relic"
+    },
+    {
+      "website": "http://nexage.com/",
+      "code_signature": "com.nexage.android.|org.nexage.",
+      "network_signature": "nexage\\.com",
+      "name": "Nexage"
+    },
+    {
+      "website": "http://www.presage.io/",
+      "code_signature": "io.presage.",
+      "network_signature": "presage\\.io",
+      "name": "Ogury Presage"
+    },
+    {
+      "website": "http://www.omniture.com",
+      "code_signature": "com.omniture.|com.adobe.adms.measurement.",
+      "network_signature": "omtrdc\\.net|omniture\\.com",
+      "name": "Omniture"
+    },
+    {
+      "website": "https://onesignal.com/",
+      "code_signature": "com.onesignal.",
+      "network_signature": "onesignal.com",
+      "name": "OneSignal"
+    },
+    {
+      "website": "https://www.openback.com",
+      "code_signature": "com.openback",
+      "network_signature": "",
+      "name": "OpenBack"
+    },
+    {
+      "website": "https://www.openx.com/",
+      "code_signature": "",
+      "network_signature": "openx.com|openx.org|openx.net|us-ads.openx.net",
+      "name": "OpenX"
+    },
+    {
+      "website": "https://www.opentracker.net/",
+      "code_signature": "net.opentracker.android",
+      "network_signature": "app.opentracker.net",
+      "name": "Opentracker"
+    },
+    {
+      "website": "https://www.optimizely.com/",
+      "code_signature": "com.optimizely.",
+      "network_signature": "\\optimizely.com",
+      "name": "Optimizely"
+    },
+    {
+      "website": "https://www.otherlevels.com/",
+      "code_signature": "com.otherlevels.",
+      "network_signature": "api.otherlevels.com|rich.otherlevels.com|geodata.otherlevels.com|tags.otherlevels.com|ws.otherlevels.com|mdn.otherlevels.com",
+      "name": "OtherLevels"
+    },
+    {
+      "website": "http://www.outbrain.com/",
+      "code_signature": "com.outbrain.",
+      "network_signature": "outbrain\\.com",
+      "name": "OutBrain"
+    },
+    {
+      "website": "http://persona.ly/",
+      "code_signature": "ly.persona.sdk",
+      "network_signature": "dev\\.persona\\.ly|dev-api\\.persona\\.ly|dev\\.dsp\\.persona\\.ly|dsp\\.persona\\.ly|rtb\\.persona\\.ly|sdk\\.persona\\.ly|persona\\.ly",
+      "name": "Persona.ly"
+    },
+    {
+      "website": "https://enterprise.foursquare.com/products/pilgrim",
+      "code_signature": "com.foursquare.pilgrim|com.foursquare.pilgrimsdk.android",
+      "network_signature": "sdk.foursquare.com",
+      "name": "Pilgrim"
+    },
+    {
+      "website": "http://pingstart.com",
+      "code_signature": "com.pingstart.adsdk.",
+      "network_signature": "api\\.pingstart\\.com",
+      "name": "PingStart"
+    },
+    {
+      "website": "https://pinterest.com",
+      "code_signature": "com.pinterest.android.pdk.",
+      "network_signature": "ct\\.pinterest\\.com|log\\.pinterest\\.com|trk\\.pinterest\\.com",
+      "name": "Pinterest"
+    },
+    {
+      "website": "http://placed.com/",
+      "code_signature": "com.placed.client",
+      "network_signature": "NC",
+      "name": "Placed"
+    },
+    {
+      "website": "https://placer.io/",
+      "code_signature": "com.placer.",
+      "network_signature": "",
+      "name": "Placer"
+    },
+    {
+      "website": "https://www.pointinside.com/",
+      "code_signature": "com.pointinside",
+      "network_signature": "NC",
+      "name": "Point Inside"
+    },
+    {
+      "website": "https://www.pokkt.com",
+      "code_signature": "com.pokkt.sdk.",
+      "network_signature": "",
+      "name": "Pokkt"
+    },
+    {
+      "website": "https://proximi.io/",
+      "code_signature": "io.proximi.proximiiolibrary",
+      "network_signature": "api.proximi.fi",
+      "name": "Proximi"
+    },
+    {
+      "website": "https://pubmatic.com/",
+      "code_signature": "com.pubmatic.sdk",
+      "network_signature": "ads.pubmatic.com|aktrack.pubmatic.com|gads.pubmatic.com|image2.pubmatic.com|simage2.pubmatic.com",
+      "name": "PubMatic"
+    },
+    {
+      "website": "https://pubnative.net/",
+      "code_signature": "net.pubnative",
+      "network_signature": "pubnative.net",
+      "name": "PubNative"
+    },
+    {
+      "website": "http://www.pushspring.com/",
+      "code_signature": "com.pushspring.sdk.PushSpring",
+      "network_signature": "api.pushspring.com",
+      "name": "PushSpring"
+    },
+    {
+      "website": "https://pusher.com/",
+      "code_signature": "com.pusher.client.",
+      "network_signature": "",
+      "name": "Pusher"
+    },
+    {
+      "website": "https://www.pushwoosh.com/",
+      "code_signature": "com.pushwoosh",
+      "network_signature": "pushwoosh\\.com",
+      "name": "Pushwoosh"
+    },
+    {
+      "website": "https://pyze.com/",
+      "code_signature": "com.pyze.",
+      "network_signature": "\\pyze.com",
+      "name": "Pyze"
+    },
+    {
+      "website": "http://www.qualtrics.com/",
+      "code_signature": "com.qualtrics.digital.",
+      "network_signature": "qualtrics\\.com",
+      "name": "Qualtrics"
+    },
+    {
+      "website": "http://www.quantcast.com",
+      "code_signature": "com.quantcast.measurement.service.",
+      "network_signature": "quantcast.com|quantcast.net",
+      "name": "Quantcast"
+    },
+    {
+      "website": "https://radar.io/",
+      "code_signature": "io.radar.sdk.Radar",
+      "network_signature": "",
+      "name": "Radar"
+    },
+    {
+      "website": "https://www.radiusnetworks.com/",
+      "code_signature": "com.radiusnetworks",
+      "network_signature": "proximitykit.radiusnetworks.com",
+      "name": "Radius Networks"
+    },
+    {
+      "website": "http://retency.com",
+      "code_signature": "com.retency.sdk.android",
+      "network_signature": "NC",
+      "name": "Retency"
+    },
+    {
+      "website": "https://www.roximity.com",
+      "code_signature": "com.roximity.sdk.",
+      "network_signature": "app.roximity.com",
+      "name": "Roximity (Acquired by Verve)"
+    },
+    {
+      "website": "https://rubiconproject.com",
+      "code_signature": "com.rfm.sdk",
+      "network_signature": "ads.rubiconproject.com|stats.aws.rubiconproject.com|fastlane.rubiconproject.com|optimized-by.rubiconproject.com|pixel.rubiconproject.com|tap2-cdn.rubiconproject.com|video-ads.rubiconproject.com",
+      "name": "Rubicon Project"
+    },
+    {
+      "website": "http://www.s4m.io/",
+      "code_signature": "com.sam4mobile.",
+      "network_signature": "sam4m\\.com|s4m.io",
+      "name": "S4M"
+    },
+    {
+      "website": "http://www.skplanet.com/",
+      "code_signature": "com.skplanet.tad",
+      "network_signature": "",
+      "name": "SK planet Tad"
+    },
+    {
+      "website": "https://www.safegraph.com/",
+      "code_signature": "com.safegraph.|com.openlocate",
+      "network_signature": "api\\.safegraph\\.com",
+      "name": "Safe Graph"
+    },
+    {
+      "website": "https://scandit.com",
+      "code_signature": "com.scandit.",
+      "network_signature": "scandit\\.com",
+      "name": "Scandit"
+    },
+    {
+      "website": "http://www.schibsted.com/en/ir/",
+      "code_signature": ".schibsted.",
+      "network_signature": "schibsted\\.com|schibsted\\.io",
+      "name": "Schibsted"
+    },
+    {
+      "website": "http://scorecardresearch.com",
+      "code_signature": "",
+      "network_signature": "scorecardresearch\\.com",
+      "name": "Score Card Research"
+    },
+    {
+      "website": "https://segment.com/",
+      "code_signature": "com.segment.analytics.",
+      "network_signature": "segment.com|api.segment.io",
+      "name": "Segment"
+    },
+    {
+      "website": "https://sense360.com/",
+      "code_signature": "com.sense360.android.quinoa.lib.Sense360",
+      "network_signature": "quinoa-personal-identify-prod.sense360eng.com|android-quinoa-config-prod.sense360eng.com|incoming-data-sense360.s3.amazonaws.com",
+      "name": "Sense360"
+    },
+    {
+      "website": "https://www.sensoro.com/",
+      "code_signature": "com.sensoro.beacon.kit.|com.sensoro.cloud",
+      "network_signature": "NC",
+      "name": "Sensoro"
+    },
+    {
+      "website": "https://www.sentiance.com/",
+      "code_signature": "com.sentiance.sdk.",
+      "network_signature": "api.sentiance.com",
+      "name": "Sentiance"
+    },
+    {
+      "website": "http://www.shallwead.com",
+      "code_signature": "com.jm.co.shallwead.sdk.|com.co.shallwead.sdk.",
+      "network_signature": "NC",
+      "name": "ShallWeAD"
+    },
+    {
+      "website": "https://shopkick.com",
+      "code_signature": "com.shopkick.sdk.api.|com.shopkick.fetchers.",
+      "network_signature": "shopkick\\.com|shopkick\\.de|sdk.shopkick.com",
+      "name": "Shopkick"
+    },
+    {
+      "website": "http://www.signal360.com",
+      "code_signature": "com.signal360.sdk.core.|com.sonicnotify.sdk.core.|com.rnsignal360",
+      "network_signature": "signal360\\.com|sonicnotify\\.com",
+      "name": "Signal360"
+    },
+    {
+      "website": "http://silverpush.co",
+      "code_signature": "com.silverpush.|com.silverpush.location|com.silverpush.sdk.android.SPService",
+      "network_signature": "silverpush\\.co|silverpush\\.com|54\\.243\\.73\\.253:8080/SilverPush/",
+      "name": "SilverPush"
+    },
+    {
+      "website": "https://www.singlespot.com/",
+      "code_signature": "com.sptproximitykit.",
+      "network_signature": "singlespot\\.com",
+      "name": "Singlespot"
+    },
+    {
+      "website": "https://www.sizmek.com",
+      "code_signature": ".sizmek.",
+      "network_signature": "serving-sys\\.com",
+      "name": "Sizmek"
+    },
+    {
+      "website": "https://smaato.com",
+      "code_signature": "com.smaato.soma.",
+      "network_signature": "soma.smaato.net|smaato.net",
+      "name": "Smaato"
+    },
+    {
+      "website": "http://smartadserver.com/",
+      "code_signature": "com.smartadserver.",
+      "network_signature": "adsrvr\\.org|akamai\\.smartadserver\\.com|cdn1\\.smartadserver\\.com|diff\\.smartadserver\\.com|diff2\\.smartadserver\\.com|diff3\\.smartadserver\\.com|eqx\\.smartadserver\\.com|gallery\\.smartadserver\\.com|im2\\.smartadserver\\.com|itx5-publicidad\\.smartadserver\\.com|itx5\\.smartadserver\\.com|preview\\.smartadserver\\.com|rtb-csync\\.smartadserver\\.com|saspreview\\.com|smartadserver\\.ru|smartadserver\\.com|tmk\\.smartadserver\\.com|insight\\.adsrvr\\.org|js\\.adsrvr\\.org|match\\.adsrvr\\.org|usw\\-lax\\.adsrvr\\.org",
+      "name": "Smart"
+    },
+    {
+      "website": "https://www.smartlook.com/",
+      "code_signature": "com.smartlook.sdk.smartlook.",
+      "network_signature": "smartlook\\.com",
+      "name": "SmartLook"
+    },
+    {
+      "website": "https://snowplowanalytics.com/",
+      "code_signature": "com.snowplowanalytics.",
+      "network_signature": "NC",
+      "name": "Snowplow"
+    },
+    {
+      "website": "https://soomla.com/",
+      "code_signature": "com.soomla.",
+      "network_signature": "\\soom.la",
+      "name": "Soomla"
+    },
+    {
+      "website": "https://www.squaremetrics.com",
+      "code_signature": "com.beaconinside.proximitysdk.ProximityService",
+      "network_signature": "api.beaconinside.com",
+      "name": "Square Metrics (formerly Beaconinside Proximity DMP)"
+    },
+    {
+      "website": "https://www.startapp.com",
+      "code_signature": "com.startapp.android.publish|com.startapp.android.publish.adsCommon",
+      "network_signature": "c2i.startappnetwork.com|c2s.startappnetwork.com|click.startappservice.com|dts.startappservice.com|events.startappservice.com|images.startappservice.com|imp.startappservice.com|init.startappservice.com|va.origin.startappservice.com|req.startappservice.com|soda.startappservice.com|info.static.startappservice.com|startappservice.com",
+      "name": "Startapp"
+    },
+    {
+      "website": "https://www.supersonic.com/",
+      "code_signature": "com.supersonic.adapters.supersonicads|com.supersonicads.sdk",
+      "network_signature": "tag\\-mediation.supersonic.com|logs.supersonic.com|click-haproxy.supersonicads.com|init.supersonicads.com|outcome.supersonicads.com|ow-gateway.supersonicads.com|rv-gateway.supersonicads.com|pixel-tracking.sonic-us.supersonicads.com|ua.supersonicads.com|www.supersonicads.com|supersonic.com|cx.ssacdn.com|static.ssacdn.com|v.ssacdn.com|supersonicads-a.akamaihd.net",
+      "name": "Supersonic Ads"
+    },
+    {
+      "website": "http://swirl.com/",
+      "code_signature": "",
+      "network_signature": "cdn-api.swirl.com",
+      "name": "Swirl"
+    },
+    {
+      "website": "https://www.swrve.com/",
+      "code_signature": "com.swrve.sdk",
+      "network_signature": "content.swrve.com|api.swrve.com",
+      "name": "Swrve"
+    },
+    {
+      "website": "https://www.sync2ad.com/",
+      "code_signature": "com.visiware.sync2ad.dmp.",
+      "network_signature": "sync2ad\\.com",
+      "name": "Sync2Ad"
+    },
+    {
+      "website": "https://synerise.com",
+      "code_signature": "com.synerise.sdk",
+      "network_signature": "synerise.com",
+      "name": "Synerise"
+    },
+    {
+      "website": "http://www.tnkfactory.com",
+      "code_signature": "com.tnkfactory",
+      "network_signature": "",
+      "name": "TNK Factory"
+    },
+    {
+      "website": "https://www.taboola.com/",
+      "code_signature": "com.taboola.",
+      "network_signature": "\\taboola.com",
+      "name": "Taboola"
+    },
+    {
+      "website": "https://www.commandersact.com/en/",
+      "code_signature": "com.tagcommander.",
+      "network_signature": "\\.commander1\\.com",
+      "name": "Tag Commander"
+    },
+    {
+      "website": "https://www.talkingdata.com/",
+      "code_signature": "com.tendcloud.|com.talkingdata.sdk.",
+      "network_signature": "gaandroid.talkingdata.net",
+      "name": "TalkingData"
+    },
+    {
+      "website": "https://www.tamoco.com/",
+      "code_signature": "com.tamoco.",
+      "network_signature": "\\evt.tamoco.com",
+      "name": "Tamoco"
+    },
+    {
+      "website": "https://www.tapad.com/",
+      "code_signature": "com.tapad.",
+      "network_signature": "analytics.tapad.com|assets.tapad.com|pixel.tapad.com|tapestry.tapad.com",
+      "name": "Tapad"
+    },
+    {
+      "website": "https://www.tapdaq.com/",
+      "code_signature": "com.tapdaq.sdk.*|com.tapdaq.sdk.ads.*",
+      "network_signature": "ads.tapdaq.com",
+      "name": "Tapdaq (Acquired by Tapjoy)"
+    },
+    {
+      "website": "https://www.tapjoy.com/",
+      "code_signature": "com.tapjoy.",
+      "network_signature": "tapjoy.com|tapjoyads.com|www.5rocks.io",
+      "name": "Tapjoy"
+    },
+    {
+      "website": "https://taplytics.com",
+      "code_signature": "com.taplytics.sdk",
+      "network_signature": "api.taplytics.com|ping.tapylitics.com",
+      "name": "Taplytics"
+    },
+    {
+      "website": "https://www.teads.tv/",
+      "code_signature": "tv.teads.",
+      "network_signature": "teads.tv",
+      "name": "Teads"
+    },
+    {
+      "website": "https://tealium.com/",
+      "code_signature": ".tealium.",
+      "network_signature": "tiqcdn.com|tealiumiq.com",
+      "name": "Tealium"
+    },
+    {
+      "website": "https://www.teemo.co",
+      "code_signature": "com.databerries.|com.geolocstation.",
+      "network_signature": "databerries\\.com",
+      "name": "Teemo"
+    },
+    {
+      "website": "http://www.telequid.com/",
+      "code_signature": "com.telequid.",
+      "network_signature": "mars\\.telequid\\.com",
+      "name": "TeleQuid"
+    },
+    {
+      "website": "https://mta.qq.com/",
+      "code_signature": "com.tencent.mta",
+      "network_signature": "NC",
+      "name": "Tencent MTA"
+    },
+    {
+      "website": "https://lbs.qq.com/",
+      "code_signature": "com.tencent.lbs",
+      "network_signature": "NC",
+      "name": "Tencent Map LBS"
+    },
+    {
+      "website": "https://www.tencent.com/en-us/",
+      "code_signature": "com.tencent.mobwin",
+      "network_signature": "NC",
+      "name": "Tencent MobWin"
+    },
+    {
+      "website": "http://stat.qq.com/",
+      "code_signature": "com.tencent.stat",
+      "network_signature": "NC",
+      "name": "Tencent Stats"
+    },
+    {
+      "website": "https://www.weiyun.com",
+      "code_signature": "com.tencent.weiyun",
+      "network_signature": "NC",
+      "name": "Tencent Weiyun"
+    },
+    {
+      "website": "http://tinder.com",
+      "code_signature": "com.tinder.analytics|com.tinder.ads",
+      "network_signature": "etl\\.tindersparks\\.com",
+      "name": "Tinder Analytics"
+    },
+    {
+      "website": "https://trillbit.com/",
+      "code_signature": "com.trillbit.",
+      "network_signature": "api.trillbit.com",
+      "name": "Trillbit"
+    },
+    {
+      "website": "https://triplelift.com",
+      "code_signature": "",
+      "network_signature": "3lift\\.com",
+      "name": "TripleLift"
+    },
+    {
+      "website": "https://www.tune.com",
+      "code_signature": "com.tune|com.mobileapptracker",
+      "network_signature": "mobileapptracking\\.com",
+      "name": "Tune"
+    },
+    {
+      "website": "https://tutucloud.com",
+      "code_signature": "org.lasque.tusdk",
+      "network_signature": "tusdk\\.com",
+      "name": "Tutucloud"
+    },
+    {
+      "website": "https://www.mopub.com/",
+      "code_signature": "com.mopub.mobileads.",
+      "network_signature": "mopub\\.com",
+      "name": "Twitter MoPub"
+    },
+    {
+      "website": "https://uber.com",
+      "code_signature": "com.ubercab.analytics.|com.ubercab.library.metrics.analytics.|com.ubercab.client.core.analytics.",
+      "network_signature": "events\\.uber\\.com",
+      "name": "Uber Analytics"
+    },
+    {
+      "website": "http://ultimedia.com",
+      "code_signature": ".",
+      "network_signature": "ultimedia\\.com",
+      "name": "Ultimedia"
+    },
+    {
+      "website": "https://www.umeng.com/analytics",
+      "code_signature": "com.umeng.analytics",
+      "network_signature": "alog.umeng.com|alogs.umeng.com|ar.umeng.com|oc.umeng.com|uop.umeng.com|umeng.com",
+      "name": "Umeng Analytics"
+    },
+    {
+      "website": "http://dev.umeng.com/feedback",
+      "code_signature": "com.umeng.fb",
+      "network_signature": "alog.umeng.com|alogs.umeng.com|ar.umeng.com|oc.umeng.com|uop.umeng.com|umeng.com",
+      "name": "Umeng Feedback"
+    },
+    {
+      "website": "https://unity3d.com/",
+      "code_signature": "com.unity3d.services|com.unity3d.ads",
+      "network_signature": "analytics.social.unity.com|api.uca.cloud.unity3d.com|config.uca.cloud.unity3d.com|stats.unity3d.com|adserver.unityads.unity3d.com|auction.unityads.unity3d.com|cdn.unityads.unity3d.com|cdn-highwinds.unityads.unity3d.com|config.unityads.unity3d.com|webview.unityads.unity3d.com",
+      "name": "Unity3d Ads"
+    },
+    {
+      "website": "https://www.urbanairship.com/",
+      "code_signature": "com.urbanairship",
+      "network_signature": "device-api.urbanairship.com|urbanairship.com",
+      "name": "Urbanairship"
+    },
+    {
+      "website": "http://vectaury.io/",
+      "code_signature": "io.vectaury.",
+      "network_signature": "vectaury\\.io",
+      "name": "Vectaury"
+    },
+    {
+      "website": "http://www.veloxity.net/",
+      "code_signature": "net.veloxity.",
+      "network_signature": "NC",
+      "name": "Veloxity"
+    },
+    {
+      "website": "https://www.verve.com",
+      "code_signature": "com.vervewireless.advert.",
+      "network_signature": "",
+      "name": "Verve"
+    },
+    {
+      "website": "https://vungle.com",
+      "code_signature": "com.vungle.publisher.",
+      "network_signature": "ads\\.api\\.vungle\\.com|akamai\\.vungle\\-cdn\\.vungle\\.com|api\\.vungle\\.akadns\\.net|api\\.vungle\\.com|bd\\.vungle\\.com|billboard\\.vungle\\.com|cdn\\-lb\\.vungle\\.com|ci\\.vungle\\.com|data\\.vungle\\.com|ingest\\.vungle\\.com|jaeger\\.vungle\\.com|ltv\\-data\\-api\\.kube\\-prod\\.vungle\\.com|monitoring\\.vungle\\.com|ssl\\.vungle\\.com|v\\.vungle\\.com",
+      "name": "Vungle"
+    },
+    {
+      "website": "https://walkme.com",
+      "code_signature": "",
+      "network_signature": "",
+      "name": "WalkMe/Abbi.io"
+    },
+    {
+      "website": "https://wechat.com",
+      "code_signature": "com.tencent.map.geolocation|com.tencent.mm.plugin.location.|com.tencent.mm.plugin.location_soso.|com.tencent.mm.plugin.location_google",
+      "network_signature": "map\\.qq\\.com",
+      "name": "WeChat Location"
+    },
+    {
+      "website": "https://www.weborama.com",
+      "code_signature": "com.weborama.",
+      "network_signature": "weborama\\.net|weborama\\.fr",
+      "name": "Weborama"
+    },
+    {
+      "website": "https://www.webtrends.com/",
+      "code_signature": "com.webtrends.mobile.analytics.|com.webtrends.mobile.android",
+      "network_signature": "dc.webtrends.com|webtrends.com",
+      "name": "Webtrends"
+    },
+    {
+      "website": "http://widespace.com",
+      "code_signature": "com.widespace.",
+      "network_signature": "widespace\\.com",
+      "name": "Widespace"
+    },
+    {
+      "website": "http://wootric.com",
+      "code_signature": "com.wootric.androidsdk.",
+      "network_signature": "wootric.com|.wootric.com.herokudns.com",
+      "name": "Wootric"
+    },
+    {
+      "website": "https://yoc.com",
+      "code_signature": "com.yoc.sdk.",
+      "network_signature": "yoc.com|yoc-performance.com",
+      "name": "YOC"
+    },
+    {
+      "website": "https://www.yandex.com/",
+      "code_signature": "com.yandex.mobile.ads",
+      "network_signature": "appmetrica.yandex.com|report.appmetrica.yandex.net|analytics.mobile.yandex.net|banners.mobile.yandex.net|banners-slb.mobile.yandex.net|startup.mobile.yandex.net|mc.yandex.ru",
+      "name": "Yandex Ad"
+    },
+    {
+      "website": "https://www.yext.com/",
+      "code_signature": "com.yext.locationsdk.",
+      "network_signature": "",
+      "name": "Yext"
+    },
+    {
+      "website": "http://www.yinzcam.com/",
+      "code_signature": "com.yinzcam.sobek",
+      "network_signature": "analytics.yinzcam.com",
+      "name": "Yinzcam Sobek"
+    },
+    {
+      "website": "https://www.youappi.com/",
+      "code_signature": "com.youappi.sdk.",
+      "network_signature": "NC",
+      "name": "YouAppi"
+    },
+    {
+      "website": "https://www.youmi.net/",
+      "code_signature": "net.youmi",
+      "network_signature": "au\\.youmi\\.net|aos\\.wall\\.youmi\\.net|youmi\\.net",
+      "name": "Youmi"
+    },
+    {
+      "website": "https://www.zapr.in/",
+      "code_signature": "com.redbricklane.zapr",
+      "network_signature": ".zapr.in",
+      "name": "Zapr"
+    },
+    {
+      "website": "http://zucks.co.jp",
+      "code_signature": "net.zucks.",
+      "network_signature": "zucks.net",
+      "name": "Zucks"
+    },
+    {
+      "website": "https://www.adboost.sk/",
+      "code_signature": ".com.ew.sdk.adboost",
+      "network_signature": "",
+      "name": "adboost"
+    },
+    {
+      "website": "https://airpush.com/",
+      "code_signature": "com.airpush.",
+      "network_signature": "api.airpush.com|appwall.api.airpush.com|apidm.airpush.com|apistaging.airpush.com|apportal.airpush.com|beta.airpush.com|cdnap.airpush.com|m.airpush.com",
+      "name": "airpush"
+    },
+    {
+      "website": "http://www.appgeneration.com/",
+      "code_signature": "com.appgeneration.ituner.ad",
+      "network_signature": "",
+      "name": "appgeneration"
+    },
+    {
+      "website": "https://www.beaconstac.com",
+      "code_signature": "co.nearbee",
+      "network_signature": "",
+      "name": "beaconstac/NearBee (MobStac Inc.)"
+    },
+    {
+      "website": "https://cocos2d-x.org/sdkbox",
+      "code_signature": "org.cocos2dx",
+      "network_signature": "",
+      "name": "cocos2dx"
+    },
+    {
+      "website": "https://deltadna.com/",
+      "code_signature": "com.deltadna",
+      "network_signature": "deltadna.net",
+      "name": "deltaDNA"
+    },
+    {
+      "website": "https://flymob.com/",
+      "code_signature": "com.flymob.sdk.common",
+      "network_signature": "",
+      "name": "flymob"
+    },
+    {
+      "website": "https://gameanalytics.com/features",
+      "code_signature": "com.gameanalytics",
+      "network_signature": "",
+      "name": "gameanalytics"
+    },
+    {
+      "website": "https://heatmap.gemius.com",
+      "code_signature": "com.gemius.sdk",
+      "network_signature": "gemius.pl",
+      "name": "gemiusHeatMap"
+    },
+    {
+      "website": "https://instabug.com/crash-reporting",
+      "code_signature": "com.instabug.library.tracking | com.instabug.bug",
+      "network_signature": "",
+      "name": "instabug"
+    },
+    {
+      "website": "https://iqzone.com/",
+      "code_signature": "com.iqzone",
+      "network_signature": "",
+      "name": "iqzone"
+    },
+    {
+      "website": "https://www.ironsrc.com",
+      "code_signature": "com.ironsource.",
+      "network_signature": "NC",
+      "name": "ironSource"
+    },
+    {
+      "website": "https://kidoz.net/kidoz-sdk/",
+      "code_signature": "com.kidoz.sdk",
+      "network_signature": "",
+      "name": "kidoz"
+    },
+    {
+      "website": "https://developer.salesforce.com/docs/atlas.en-us.mc-sdks.meta/mc-sdks/using-a-client-library.htm",
+      "code_signature": "com.salesforce.marketingcloud.analytics | com.salesforce.marketingcloud.location",
+      "network_signature": "",
+      "name": "marketingcloud"
+    },
+    {
+      "website": "https://target.my.com/",
+      "code_signature": "com.my.target.",
+      "network_signature": "NC",
+      "name": "myTarget"
+    },
+    {
+      "website": "https://tracker.my.com/",
+      "code_signature": "com.my.tracker.",
+      "network_signature": "tracker-api.my.com",
+      "name": "myTracker"
+    },
+    {
+      "website": "https://nend.net/en/",
+      "code_signature": "net.nend",
+      "network_signature": "",
+      "name": "nend"
+    },
+    {
+      "website": "https://www.plexure.com/",
+      "code_signature": "co.vmob.sdk",
+      "network_signature": "",
+      "name": "plexure"
+    },
+    {
+      "website": "https://www.tabtale.com/",
+      "code_signature": "com.tabtale",
+      "network_signature": "",
+      "name": "tabtale"
+    }
+  ]
+}
