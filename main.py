@@ -8,8 +8,8 @@ from helper import *
 from subtasks import CodeSignature, GenerateOutput, PermissionAnalyser
 
 script_directory = digest_path(os.path.dirname(os.path.realpath(__file__)).replace('\\','/'))  # path of this script
-ghidra_project = script_directory + 'ghidra-project/'  # path to temporary ghidra project
-temp_dir = script_directory + 'temp/' # path to general temporary files
+temp_dir = script_directory + 'temp/'  # path to general temporary files
+ghidra_project = temp_dir + 'ghidra-project/'  # path to temporary ghidra project
 windows = True if os.name == 'nt' else False  # true if running on windows
 
 # input
@@ -65,12 +65,21 @@ def run(args):
     print('[output] ' + output)
 
     # run all subtasks
+    prepare()
     analyse_permissions()
     analyse_code_signature()
     analyse_ghidra()
     generate_output()
     clean()
     print('\n### finished ###\n')
+
+
+def prepare():
+    # create temporary folders
+    if not os.path.exists(temp_dir):
+        os.makedirs(temp_dir)
+    if not os.path.exists(ghidra_project):
+        os.makedirs(ghidra_project)
 
 
 def analyse_permissions():
