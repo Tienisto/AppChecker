@@ -26,14 +26,14 @@ Run this script if you want to use your external dependencies (e.g. newer versio
 
 ### Output
 
-You can add `-o <path to output>` to tell the script where to store **result.txt**, **result.json** and **result.html**.
+You can add `-o <path to output>` choose where to save **result.txt**, **result.json** and **result.html**.
 
 If not specified, the default path **&lt;script location>/output** will be used.
 
 ### Experimental Feature
 
 You can also add `-f` to activate the ghidra deep search option.
-The analyse duration will be much longer but maybe ghidra find more hidden trackers.
+The analyse duration will be much longer but maybe ghidra finds more hidden trackers.
 
 ### Problems
 

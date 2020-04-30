@@ -1,1 +1,10 @@
 dependencies/
+__pycache__/helper.cpython-37.pyc
+__pycache__/main.cpython-37.pyc
+subtasks/__pycache__/CodeSignature.cpython-37.pyc
+subtasks/__pycache__/GenerateOutput.cpython-37.pyc
+subtasks/__pycache__/PermissionAnalyser.cpython-37.pyc
+output/result.txt
+output/result.json
+output/result.html
+.DS_Store
