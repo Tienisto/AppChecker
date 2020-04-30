@@ -138,7 +138,7 @@ public class GhidraAPKScript extends GhidraScript {
 			String s = json.substring(token.start, token.end);
 			switch((counter-3) % 9) {
 			case 2:
-				website = s;
+				name = s;
 				break;
 			case 4:
 				codeSignature = s;
@@ -147,7 +147,7 @@ public class GhidraAPKScript extends GhidraScript {
 				networkSignature = s;
 				break;
 			case 8:
-				name = s;
+				website = s;
 				break;
 			}
 			
