@@ -153,7 +153,7 @@ public class GhidraAPKScript extends GhidraScript {
 			
 			if(website != null && networkSignature != null && name != null) {
 				// merge all 3 infos to an object
-				trackers.add(new Tracker(website, networkSignature.replace("\\", "").replace(".", "\\."), codeSignature, name));
+				trackers.add(new Tracker(website, networkSignature.replace("*", "").replace("\\", "").replace(".", "\\."), codeSignature, name));
 				website = null;
 				networkSignature = null;
 				name = null;

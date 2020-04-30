@@ -156,7 +156,7 @@ def _analyse_ghidra(directory, apk_name):
                         '-deleteProject'])
     
                 # read all the trackers from temporary output.csv
-                datareader = csv.reader(open(script_directory+'subtasks/output.csv', 'a+'), delimiter=',')
+                datareader = csv.reader(open(script_directory+'subtasks/output.csv', 'r'), delimiter=',')
                 for row in datareader:
                     add_tracker(apk_name, tracker_name = row[3], website = row[0], code_signature = row[1], network_signature = row[2], trigger = row[4])
 
