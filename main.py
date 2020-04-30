@@ -9,6 +9,7 @@ from subtasks import CodeSignature, GenerateOutput, PermissionAnalyser
 
 script_directory = digest_path(os.path.dirname(os.path.realpath(__file__)).replace('\\','/'))  # path of this script
 ghidra_project = script_directory + 'ghidra-project/'  # path to temporary ghidra project
+temp_dir = script_directory + 'temp/' # path to general temporary files
 windows = True if os.name == 'nt' else False  # true if running on windows
 
 # input
@@ -74,7 +75,7 @@ def run(args):
 
 def analyse_permissions():
     print('\n### analyse apk using apktool ###\n')
-    temp_result = PermissionAnalyser.androidmanifest_script(apk, apktool, windows)
+    temp_result = PermissionAnalyser.androidmanifest_script(temp_dir, apk, apktool, windows)
 
     # add to main result
     for apk_name, permissions in temp_result.items():
@@ -172,6 +173,10 @@ def clean():
     csv_file = script_directory+'subtasks/output.csv'
     if os.path.exists(csv_file):
         os.remove(csv_file)
+
+    # delete temporary files
+    if os.path.exists(temp_dir):
+        shutil.rmtree(temp_dir)
 
     # delete temporary ghidra project
     if os.path.exists(ghidra_project):

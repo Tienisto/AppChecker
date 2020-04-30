@@ -1,4 +1,9 @@
-dependencies/
+# project specific
+/dependencies/
+/output/
+/temp/
+
+# caches
 __pycache__/
-output/
 .DS_Store
+.idea

@@ -5,7 +5,7 @@ import sys
 import csv
 from xml.dom import minidom
 
-def androidmanifest_script(workspace_dir, apktool_path,is_windows):
+def androidmanifest_script(temp_dir, workspace_dir, apktool_path,is_windows):
 ##################################################################################
 # get AndroidManifest from .apk file or from all .apk files in dir
 #################################################################################
@@ -14,19 +14,19 @@ def androidmanifest_script(workspace_dir, apktool_path,is_windows):
 		command_postfix = ".bat"
 	else:
 		print('You are using a UNIX System.')
-		command_postfix = '' 		
-	
+		command_postfix = ''
+
 	if workspace_dir.endswith('.apk'):
 		permissionlist=[]
 		permissiondictonary={}
 		print('You choose a single .apk file.')
-		decode_path = workspace_dir+'_decode'
+		decode_path = temp_dir+workspace_dir+'_decode'
 		print('Using apktool on ',workspace_dir,'...')
 		print('The apktool will save the data at ', decode_path)
 		subprocess.call([apktool_path + 'apktool' + command_postfix,'decode', workspace_dir, '-o', decode_path,'-f'])
 		androidmanifest_path = os.path.join(decode_path,'AndroidManifest.xml')
 		permissionlist = permissions(androidmanifest_path)
-		permissiondictonary[decode_path[:-7]]=permissionlist  
+		permissiondictonary[decode_path[:-7]]=permissionlist
 		return permissiondictonary
 
 	else:
@@ -43,7 +43,7 @@ def androidmanifest_script(workspace_dir, apktool_path,is_windows):
 			# find all .apk files
 			if i.endswith('.apk'):
 				print('Using apktool on ',i,'...')
-				decode_path = i+'_decode'
+				decode_path = temp_dir+i+'_decode'
 				print('The apktool will save the data at ', decode_path)
 				subprocess.call([apktool_path + 'apktool' + command_postfix,'decode', i, '-o', decode_path,'-f'])
 				# TODO: read AndroidManifest and find permissions
