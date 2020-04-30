@@ -146,6 +146,7 @@ def _analyse_ghidra(directory, apk_name):
             os.makedirs(ghidra_project)
 
     extension = '.bat' if windows else ''
+    csv_path = temp_dir+'output.csv'
     for path, _, files in os.walk(directory):
         for filename in files:
             if filename.endswith('.dex'):
@@ -154,7 +155,7 @@ def _analyse_ghidra(directory, apk_name):
                     subprocess.call(
                         [ghidra + 'support/analyzeHeadless' + extension, ghidra_project, 'temp.gpr', '-import', dex,
                         '-scriptPath', script_directory+'subtasks',
-                        '-postScript','GhidraAPKScript.java', 'true',
+                        '-postScript','GhidraAPKScript.java', 'true', csv_path,
                         '-deleteProject'])
                 else:
                     # reduce analyse duration by disabling analysers in ghidra through pre script
@@ -162,11 +163,11 @@ def _analyse_ghidra(directory, apk_name):
                         [ghidra + 'support/analyzeHeadless' + extension, ghidra_project, 'temp.gpr', '-import', dex,
                         '-scriptPath', script_directory+'subtasks',
                         '-preScript', 'GhidraPreScript.java',
-                        '-postScript','GhidraAPKScript.java', 'false',
+                        '-postScript','GhidraAPKScript.java', 'false', csv_path,
                         '-deleteProject'])
     
                 # read all the trackers from temporary output.csv
-                datareader = csv.reader(open(script_directory+'subtasks/output.csv', 'r'), delimiter=',')
+                datareader = csv.reader(open(csv_path, 'r'), delimiter=',')
                 for row in datareader:
                     add_tracker(apk_name, tracker_name = row[3], website = row[0], code_signature = row[1], network_signature = row[2], trigger = row[4])
 
@@ -178,18 +179,9 @@ def generate_output():
 
 
 def clean():
-    # delete csv
-    csv_file = script_directory+'subtasks/output.csv'
-    if os.path.exists(csv_file):
-        os.remove(csv_file)
-
     # delete temporary files
     if os.path.exists(temp_dir):
         shutil.rmtree(temp_dir)
-
-    # delete temporary ghidra project
-    if os.path.exists(ghidra_project):
-        shutil.rmtree(ghidra_project)
 
 
 def check_apk_instance(apk_name):
