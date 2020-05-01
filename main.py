@@ -96,7 +96,7 @@ def analyse_permissions():
 
 def analyse_code_signature():
     print('\n### analyse apk using dex2jar ###\n')
-    temp_result = CodeSignature.dex2jar(apk, dex2jar, windows)
+    temp_result = CodeSignature.dex2jar(apk, dex2jar, windows, temp_dir)
 
     # add to main result
     for apk_name, apk_info in temp_result.items():

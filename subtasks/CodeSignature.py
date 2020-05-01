@@ -8,7 +8,7 @@ import json
 ##################################################################################
 # SUB FUNCTION: process an .apk file: unzip .apk, .dex to .jar, unzip .jar
 ##################################################################################
-def process_apk(apk_path, dex2jar_path, is_windows):
+def process_apk(apk_path, dex2jar_path, is_windows, temp_dir):
     if is_windows is True:
         print('You are using a Windows System.')
         command_postfix = ".bat"
@@ -18,12 +18,12 @@ def process_apk(apk_path, dex2jar_path, is_windows):
 
     print('Extracting ' + apk_path + '...')
     zip_ref = zipfile.ZipFile(apk_path, 'r')
-    zip_ref.extractall(apk_path[:-4])
+    zip_ref.extractall(temp_dir)
     zip_ref.close()
 
     print('Searching for .dex files...')
     extracted_classes = []
-    for path, subdirs, files in os.walk(r'' + apk_path[0:-4]):
+    for path, subdirs, files in os.walk(r'' + temp_dir):
         for filename in files:
             f = os.path.join(path, filename)
             if f.endswith('.dex'):
@@ -108,14 +108,14 @@ def process_apk(apk_path, dex2jar_path, is_windows):
 ##################################################################################
 # MAIN FUNCTION
 ##################################################################################
-def dex2jar(workspace_dir, dex2jar_path, is_windows):
+def dex2jar(workspace_dir, dex2jar_path, is_windows, temp_dir):
     print('Starting dex2jar script:')
     tracker_dictionary = {}
     # if single .apk file: call process_apk function
     if workspace_dir.endswith('.apk'):
         print('You chose a single .apk file.')
         tracker_dictionary[workspace_dir] = process_apk(apk_path=workspace_dir, dex2jar_path=dex2jar_path,
-                                                                  is_windows=is_windows)
+                                                                  is_windows=is_windows, temp_dir=temp_dir)
 
     # if directory with multiple .apk files
     else:
@@ -131,6 +131,6 @@ def dex2jar(workspace_dir, dex2jar_path, is_windows):
             # find all .apk files
             if i.endswith('.apk'):
                 tracker_dictionary[i] = process_apk(apk_path=i, dex2jar_path=dex2jar_path,
-                                                              is_windows=is_windows)
+                                                              is_windows=is_windows, temp_dir=temp_dir)
 
     return tracker_dictionary
