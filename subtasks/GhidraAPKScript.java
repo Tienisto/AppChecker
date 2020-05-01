@@ -42,9 +42,10 @@ public class GhidraAPKScript extends GhidraScript {
 
         String[] args = getScriptArgs();
         boolean deep = Boolean.valueOf(args[0]);
-        String csvPath = args[1];
+        String trackerPath = args[1];
+        String csvPath = args[2];
 
-        String pathJSON = new File("subtasks/tracker.json").getAbsolutePath().replace("\\", "/");
+        String pathJSON = new File(trackerPath).getAbsolutePath().replace("\\", "/");
         println("Path to tracker.json: " + pathJSON);
 
         String pathOutput = new File(csvPath).getAbsolutePath().replace("\\", "/");

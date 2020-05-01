@@ -6,4 +6,8 @@
 # caches
 __pycache__/
 .DS_Store
+
+# dev
 .idea
+test/
+classes*-error.zip

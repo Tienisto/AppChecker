@@ -18,12 +18,12 @@ def process_apk(apk_path, dex2jar_path, is_windows, temp_dir):
 
     print('Extracting ' + apk_path + '...')
     zip_ref = zipfile.ZipFile(apk_path, 'r')
-    zip_ref.extractall(temp_dir)
+    zip_ref.extractall(temp_dir+apk_path)
     zip_ref.close()
 
     print('Searching for .dex files...')
     extracted_classes = []
-    for path, subdirs, files in os.walk(r'' + temp_dir):
+    for path, subdirs, files in os.walk(r'' + temp_dir + apk_path):
         for filename in files:
             f = os.path.join(path, filename)
             if f.endswith('.dex'):

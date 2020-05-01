@@ -65,16 +65,20 @@ def run(args):
     print('[output] ' + output)
 
     # run all subtasks
-    prepare()
+    clean()
     analyse_permissions()
     analyse_code_signature()
     analyse_ghidra()
     generate_output()
-    clean()
+
     print('\n### finished ###\n')
 
 
-def prepare():
+def clean():
+    # delete temporary files
+    if os.path.exists(temp_dir):
+        shutil.rmtree(temp_dir)
+    
     # create temporary folders
     if not os.path.exists(temp_dir):
         os.makedirs(temp_dir)
@@ -115,25 +119,16 @@ def analyse_ghidra():
         # single apk
         apk_name = apk[apk.rfind('/')+1:]
         check_apk_instance(apk_name)
-        _analyse_ghidra(apk[:-4], apk_name)
+        _analyse_ghidra(temp_dir+apk, apk_name)
     else:
         # directory (multiple apks)
-        entries = os.listdir(apk)
+        entries = os.listdir(temp_dir+apk)
         for e in entries:
-            if os.path.isdir(apk+e):
-                # check if corresponding apk exists
-                exists = False
-                for x in entries:
-                    if str(x) == str(e)+'.apk':
-                        exists = True
-                        break
-                if not exists:
-                    continue
-
+            curr_apk = get_file_name(str(e))
+            if os.path.isdir(temp_dir+apk+e) and curr_apk.endswith('.apk'):
                 # analyse
-                apk_name = str(e)+'.apk'
-                check_apk_instance(apk_name)
-                _analyse_ghidra(apk+e, apk_name)
+                check_apk_instance(curr_apk)
+                _analyse_ghidra(temp_dir+apk+e, curr_apk)
 
 
 # analyse all dex files in folder
@@ -146,7 +141,9 @@ def _analyse_ghidra(directory, apk_name):
             os.makedirs(ghidra_project)
 
     extension = '.bat' if windows else ''
+    tracker_path = script_directory+'subtasks/tracker.json'
     csv_path = temp_dir+'output.csv'
+
     for path, _, files in os.walk(directory):
         for filename in files:
             if filename.endswith('.dex'):
@@ -155,7 +152,7 @@ def _analyse_ghidra(directory, apk_name):
                     subprocess.call(
                         [ghidra + 'support/analyzeHeadless' + extension, ghidra_project, 'temp.gpr', '-import', dex,
                         '-scriptPath', script_directory+'subtasks',
-                        '-postScript','GhidraAPKScript.java', 'true', csv_path,
+                        '-postScript','GhidraAPKScript.java', 'true', tracker_path, csv_path,
                         '-deleteProject'])
                 else:
                     # reduce analyse duration by disabling analysers in ghidra through pre script
@@ -163,7 +160,7 @@ def _analyse_ghidra(directory, apk_name):
                         [ghidra + 'support/analyzeHeadless' + extension, ghidra_project, 'temp.gpr', '-import', dex,
                         '-scriptPath', script_directory+'subtasks',
                         '-preScript', 'GhidraPreScript.java',
-                        '-postScript','GhidraAPKScript.java', 'false', csv_path,
+                        '-postScript','GhidraAPKScript.java', 'false', tracker_path, csv_path,
                         '-deleteProject'])
     
                 # read all the trackers from temporary output.csv
@@ -176,12 +173,6 @@ def generate_output():
     print('\n### generate output ###\n')
     GenerateOutput.generate(output, result)
     webbrowser.open('file://' + output + 'result.html')
-
-
-def clean():
-    # delete temporary files
-    if os.path.exists(temp_dir):
-        shutil.rmtree(temp_dir)
 
 
 def check_apk_instance(apk_name):
