@@ -30,6 +30,16 @@ You can add `-o <path to output>` choose where to save **result.txt**, **result.
 
 If not specified, the default path **&lt;script location>/output** will be used.
 
+### Update Tracker Signatures
+
+> [!WARNING]
+> This overwrites the `tracker.json` file in the subtask dir. Back it up if needed.
+
+You can run `python utils/update_signatures.py` from the root dir of this directory (where the `main.py` file resides) to pull and format the latest tracker list from the [Exodus Privacy API](https://reports.exodus-privacy.eu.org/api/trackers).
+
+> [!NOTE]
+> This might break whenever the Exodus API changes, if it does feel free to open an Issue or even a PR to fix it.
+
 ### Experimental Feature
 
 You can also add `-f` to activate the ghidra deep search option.
@@ -44,3 +54,4 @@ If you get a **Permission Denied** error, then you should make them executable:
 If you get a **FileNotFoundException** (tracker.json cannot be found), then you are in the wrong directory
 
 `cd <script location>`
+
