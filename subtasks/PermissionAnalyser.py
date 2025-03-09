@@ -1,8 +1,6 @@
 #TODO: Search in AndroidManifest.xml for permissions
 import subprocess
 import os
-import sys
-import csv
 from xml.dom import minidom
 
 def androidmanifest_script(temp_dir, workspace_dir, apktool_path,is_windows):
